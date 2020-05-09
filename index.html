@@ -4,12 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app/reset.css">
     <link rel="stylesheet" href="app/style.css">
     <title>TheAnimeThing</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+    <nav>
+        <ul>
+            <p>The<em>Anime</em>Thing</p>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Favourites</a></li>
+        </ul>
+    </nav>
+    <div id="headwrapper">
+        <header>
+            <h1>Welcome to The<em>Anime</em>Thing</h1>
+            <p>TheAnimeThing is a platform to find anime you know, and even ones you don't know about.
+                You need more info about an anime you've heard of in a random conversation? We have it.
+                You're looking for a trailer of an anime? We have it. You're at the right adress. You made it.</br>
+            </p>
+            <p><strong>Congrats.</strong></p>
+            <form>
+                <input type="text" name="searchanime" id="searchanime" placeholder="Search an anime…">
+                <input type="submit" name="submit" id="submitbtn" value="Search">
+            </form>
+        </header>
+    </div>
+    <main>
+        <section id="animewrapper">
+            <div id="anime">
+                <div class="anime-img">
+                    <img src="img/test.jpg" alt="random">
+                </div>
+                <h2>ANIME TITLE</h2>
+                <h3>RELEASE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis corrupti dolore ea quo! Molestias
+                    consectetur voluptas consequatur nesciunt distinctio sit.
+                </p>
+                <a href="MEER">Meer over weten</a>
+            </div>
+            <div id="anime">
+                <div class="anime-img">
+                    <img src="img/test.jpg" alt="random">
+                </div>
+                <h2>ANIME TITLE</h2>
+                <h3>RELEASE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis corrupti dolore ea quo! Molestias
+                    consectetur voluptas consequatur nesciunt distinctio sit.
+                </p>
+                <a href="MEER">Meer over weten</a>
+            </div>
+        </section>
+    </main>
 </body>
+<script src="app/app.js"></script>
 
 </html>
