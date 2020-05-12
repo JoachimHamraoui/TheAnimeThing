@@ -47,6 +47,7 @@ nav ul * {
 
 nav ul li {
   color: #333;
+  text-align: center;
 }
 
 nav ul li:hover a {
@@ -85,6 +86,10 @@ nav ul p {
 
 #headwrapper header p:nth-child(3) {
   margin-top: 8px;
+}
+
+#headwrapper h1 {
+  margin-bottom: 16px;
 }
 
 #headwrapper form {
@@ -179,7 +184,7 @@ h1 {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 1px;
-  margin-bottom: 8px;
+  margin-bottom: 32px;
 }
 
 h2 {
