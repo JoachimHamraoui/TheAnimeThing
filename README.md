@@ -1,5 +1,13 @@
 # TheAnimeThing
 
+Link: https://theanimething.netlify.app/
+
+Bugs nog aanwezig:
+
+Heeft een pagina refresh nodig om te werken.
+Soms meerdere submits nodig om te werken.
+Update van render werkt niet 100%.
+
 Joachim Hamraoui 
 1MCT Groep C
 
